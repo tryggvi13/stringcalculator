@@ -1,7 +1,7 @@
 package is.ru.stringcalculator;
 
 import java.util.regex.Pattern;
-
+public class NegativeNumberException;
 public class Calculator {
 
 	public static int add(String text){
@@ -38,7 +38,4 @@ public class Calculator {
 		}
 		return total;
     }
-
-
-
 }
