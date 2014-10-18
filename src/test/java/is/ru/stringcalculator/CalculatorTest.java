@@ -33,4 +33,21 @@ public class CalculatorTest {
 	public void testMultipleLines(){
 		assertEquals(6, Calculator.add("1\n2,3"));
 	}
+	/*@Test 
+	public void testDifferentDelimiter(){
+		String testString = "/";
+		testString += "/;1;2";
+		System.out.println();
+		System.out.println(testString);
+		assertEquals(3, Calculator.add(testString));
+	}
+	@Test
+	public void testNegativeNumbers(){
+		assertEquals(throw("-1", Calculator.add("-1,2));
+		assertEquals(throw("-4,-5", Calculator.add("2,-4,3,-5"));
+		*/
+	@Test
+	public void testBigger(){
+		assertEquals(2, Calculator.add("1001,2"));
+	}
 }
